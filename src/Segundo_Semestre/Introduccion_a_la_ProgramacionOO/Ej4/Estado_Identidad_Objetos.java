@@ -1,5 +1,5 @@
 package Segundo_Semestre.Introduccion_a_la_ProgramacionOO.Ej4;
-
+public class Estado_Identidad_Objetos{
 public static void main(String[]args){
 
     Gallina gallina1 = new Gallina(1, 4, 6);
