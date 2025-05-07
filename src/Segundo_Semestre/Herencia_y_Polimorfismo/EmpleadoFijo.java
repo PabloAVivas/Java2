@@ -10,7 +10,7 @@ public class EmpleadoFijo extends Empleado{
         this.sueldoFijo = sueldoFijo;
     }
 
-    public double antiguedad(){
+    private double antiguedad(){
         int anios = antiguedadEnAnios();
         if(anios >= 2){
           return antiguedad1;
